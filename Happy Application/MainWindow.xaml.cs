@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Speech.Synthesis;
 
 namespace Happy_Application
 {
@@ -20,9 +21,19 @@ namespace Happy_Application
     /// </summary>
     public partial class MainWindow : Window
     {
+        Uri iconUri = new Uri("pack://application:,,,/Resources/HappyFaceUpsideDown.ico");
+        SpeechSynthesizer mainSynth = new SpeechSynthesizer();
+
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void OnClick(object sender, RoutedEventArgs e)
+        {
+            Icon = BitmapFrame.Create(iconUri);
+            mainSynth.Speak("Test");
         }
     }
 }
