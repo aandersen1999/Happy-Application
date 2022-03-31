@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Happy Application")]
-[assembly: AssemblyDescription("A Very Happy Application")]
+[assembly: AssemblyTitle("Allied MasterComputer")]
+[assembly: AssemblyDescription("Cogito ergo sum")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Happy Application")]
+[assembly: AssemblyProduct("Allied MasterComputer")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
